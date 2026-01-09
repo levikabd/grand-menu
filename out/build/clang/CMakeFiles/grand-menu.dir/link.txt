@@ -1,1 +1,0 @@
-/usr/bin/clang++-19 -g "CMakeFiles/grand-menu.dir/main.cpp.o" -o grand-menu  -lcurses /usr/lib/x86_64-linux-gnu/libform.so -lncursesw -ltinfo -lmenu 
