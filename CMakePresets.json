@@ -1,0 +1,53 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "clang",
+            "displayName": "Clang 19.1.4 x86_64-pc-linux-gnu",
+            "description": "Использование компиляторов: C = /usr/bin/clang-19, CXX = /usr/bin/clang++-19",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "/usr/bin/clang-19",
+                "CMAKE_CXX_COMPILER": "/usr/bin/clang++-19",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "mingw64",
+            "displayName": "g++",
+            "description": "Использование компиляторов: C = /usr/bin/x86_64-w64-mingw32-gcc, CXX = /usr/bin/x86_64-w64-mingw32-g++",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "/usr/bin/gcc",
+                "CMAKE_CXX_COMPILER": "/usr/bin/g++",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "GCC 12.2.0 x86_64-linux-gnu",
+            "displayName": "GCC 12.2.0 x86_64-linux-gnu",
+            "description": "Использование компиляторов: C = /usr/bin/gcc, CXX = /usr/bin/g++",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "/usr/bin/gcc",
+                "CMAKE_CXX_COMPILER": "/usr/bin/g++",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "clang13",
+            "displayName": "Clang 13.0.1 x86_64-pc-linux-gnu",
+            "description": "Использование компиляторов: C = /usr/bin/clang-13, CXX = /usr/bin/clang++-13",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "/usr/bin/clang-13",
+                "CMAKE_CXX_COMPILER": "/usr/bin/clang++-13",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+/home/lev/yadi/DEVEL/grand-menu/out/build/clang/CMakeFiles/grand-menu.dir
+/home/lev/yadi/DEVEL/grand-menu/out/build/clang/CMakeFiles/edit_cache.dir
+/home/lev/yadi/DEVEL/grand-menu/out/build/clang/CMakeFiles/rebuild_cache.dir
